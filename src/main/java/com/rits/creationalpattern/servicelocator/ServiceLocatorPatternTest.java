@@ -14,6 +14,7 @@ public class ServiceLocatorPatternTest {
         System.out.println(service.getMessageBody());
         service = ServiceLocator.getService("SMSService");
         System.out.println(service.getMessageBody());
+        System.out.println("Welcome to Jenkin");
 
 
 
