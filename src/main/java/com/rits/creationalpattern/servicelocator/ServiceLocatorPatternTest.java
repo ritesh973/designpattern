@@ -15,8 +15,6 @@ public class ServiceLocatorPatternTest {
         service = ServiceLocator.getService("SMSService");
         System.out.println(service.getMessageBody());
 
-        System.out.println("Build Test");
-        System.out.println("Build 3");
 
 
 
